@@ -37,6 +37,6 @@
 
 > **Skills**
 
-- Certificate of Accounting Profession;
+- Certificate of Accounting Profession
 - SQL Server Senior Skill Level
 - Office/SAP
