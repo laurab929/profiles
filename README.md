@@ -13,6 +13,7 @@
 </table>
 
 > **Molex (2015.07 ~ Present)**
+
   - **Collection Supervisor**
     - Responsible for Asia AR, $0.3 billion account receivables portfolio under 10 Molex legal entity within 1400 customer account. 
     - Lead Regional collection team in Shanghai, recruit new staff and assign work to three inferiors rationally.
@@ -33,7 +34,6 @@
 > **Education**
 
 - 2013.09 ~ 2016.03, Master in Management Science and Engineering, University of Shanghai for Science and Technology
-
 
 > **Skills**
 
