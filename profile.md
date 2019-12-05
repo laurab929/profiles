@@ -3,7 +3,7 @@
 <td style="width: 80%">
 <h3><strong>Laura Bao</strong><h3>
 <p style="font-size:14px">
-13052080119<strong>|</strong> laurab@163.com
+13052080119 <strong>|</strong> laurab@163.com
 </p>
 </td>
 <td>
@@ -14,7 +14,7 @@
 
 > **Molex (2015.07 ~ Present)**
 
-  - **Collection Supervisor** - Responsible for Asia AR, $0.3 billion account receivables portfolio under 10 Molex legal entity within 1400 customer account. 
+  - **Collection Supervisor** - Responsible for Asia AR, $0.3 billion account receivables portfolio under 10 Molex legal entities within 1400 customer accounts. 
     - Lead Regional collection team in Shanghai, recruit new staff and assign work to three inferiors rationally.
     - Monthly review AR aging with Regional collection team and Global collection team, analyse overdue's root cause and guide to solve complex case.
     - Make the desicion to apply suitable collection strategy to different customer, communicate with business team for different collection activity.
