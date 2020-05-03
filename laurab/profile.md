@@ -7,7 +7,7 @@
 </p>
 </td>
 <td>
-<img src="people_resize.png" alt="people_resize" title="my photo"/>
+<img src="./people_resize.png" alt="people_resize" title="my photo"/>
 </td>
 </tr>
 </table>
