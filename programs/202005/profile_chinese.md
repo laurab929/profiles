@@ -1,25 +1,17 @@
-
-<center> <h3><strong>Ji Lei</strong></h3> </center>
-
-<center><strong>Tel/Wechat</strong> +86 131 6706 7620 | <strong>E-mail</strong> jilei191@163.com</center>
-
-<!--
-    <table>
-    <tr>
-    <td style="width: 80%">
-    <h3><strong>Ji Lei</strong><h3>
-    <p style="font-size:14px;">
-    +86 131 6706 7620 <br />
-    jilei191@163.com
-    </p>
-    </td>
-    <td>
-    <img src="./photo.png" alt="people_resize" title="my photo"/>
-    </td>
-    </tr>
-    </table>
--->
-
+<table>
+<tr>
+<td style="width: 80%">
+<h3><strong>Ji Lei</strong><h3>
+<p style="font-size:14px;">
++86 131 6706 7620 <br />
+jilei191@163.com
+</p>
+</td>
+<td>
+<img src="./photo.png" alt="people_resize" title="my photo"/>
+</td>
+</tr>
+</table>
 
 > **SKILL SET**
 
