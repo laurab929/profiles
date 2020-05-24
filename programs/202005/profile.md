@@ -1,5 +1,5 @@
 
-<h3 align="center"><strong>Ji Lei</strong></h3>
+<h3 align="center"><strong>Ji Lei (计磊)</strong></h3>
 
 <p align="center"><strong>Tel/Wechat</strong> +86 131 6706 7620 | <strong>E-mail</strong> jilei191@163.com</p>
 
