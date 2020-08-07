@@ -1,10 +1,10 @@
 <table>
 <tr>
 <td style="width: 80%">
-<h3><strong>Ji Lei</strong><h3>
+<h3><strong>计磊</strong><h3>
 <p style="font-size:14px;">
-+86 131 6706 7620 <br />
-jilei191@163.com
+手机/微信：+86 131 6706 7620 <br />
+邮箱：jilei191@163.com
 </p>
 </td>
 <td>
@@ -13,33 +13,36 @@ jilei191@163.com
 </tr>
 </table>
 
-> **SKILL SET**
+> **专业技能**
 
-- **Coding Language**: T-SQL/Spark-Sql/Hive-Sql, Python, Shell, C, html, javascript 
-- **Development Software**: VS Studio, SSMS, SSIS, PowerBI, Git
-- **Database Platform**: SQL Server, Oracle, Teradata, Hadoop
-- **Editing Software**: VS Code, Sublime Text, Office Kit
+- **编程语言**: T-SQL/Spark-Sql/Hive-Sql、Python、Shell、C、html、javascript 
+- **开发工具**: VS Code、Sublime Text、VS Studio、SSMS、SSIS、PowerBI、Git
+- **数据库软件**: SQL Server、Oracle、Teradata、Hadoop+Hive/Spark
+- **编辑工具**: VS Code、Sublime Text、MS Office Kit
 
-> **EDUCATION**
+> **教育背景**
 
-- 2013.09 ~ 2016.03 Shanghai **|** University of Shanghai for Science and Technology **|** Master of Science in Management **|** Management Science and Engineering
+- 2013.09 ~ 2016.03 上海 **|** 上海理工大学 **|** 管理学硕士 **|** 管理科学与工程
+- 2008.06 ~ 2012.09 西安 **|** 陕西科技大学 **|** 工学学士 **|** 物流工程
 
-- 2008.06 ~ 2012.09 Xi`an **|** Shaanxi University of Science and Technology **|** Bachelor of Engineering **|** Logistics Engineering 
-
-> **PROFESSIONAL EXPERIENCE**
+> **数据分析&商务智能相关经历**
 
 - **eBay | Business System Analyst | 2018.05 ~ Present**
 
-  - Responsibilities
-    - Analyze business data requirement implementations for EDW changes.
-    - Steer DW counterparts for projects from Billing/Finance/Payments team.
-    - Coordinate overall developer resources to support DW infrastructure migration.
-    - Tech solution provider on specific ETL processes for different projects.
-    - Make sure data quality with SLA/SLE commitment and support Ad hoc analysis request in a timely fashion.
+  - 主要职责：
+    - 分析用户业务需求，结合实际数据资源提供解决方案
+    - 与财务和支付部门对接，对相应项目在数仓的实施进行统筹
+    - 在数据仓库基础设施升级项目中计划并协调eBay核心数据的迁移
+    - 确保核心数据质量，并在数据出现问题时提供快速准确的数据恢复方案
 
-  - Project experiences
-    - Fee netting project | DW project lead | 2020.03~Present
-      - **Problems**: With the launch of managed payments in eBay, established process of charging seller fee reveals shortcomings on long billing cycle and complexity of fee calculating  
+<!--
+SLA: Service Level Agreement
+SLE: Service Level Expectation
+-->
+
+  - 参与项目
+    - Fee netting project | DW project lead | 2020.03 ~ Present
+      - 问题: With the launch of managed payments in eBay, established process of charging seller fee reveals shortcomings on long billing cycle and complexity of fee calculating  
       - **Objectives**: Adjust fee charging process from after-transaction to in-transaction. Fee will be netted in seller balance during buyer checkout and seller payout.
       - **Roles**: Analyze the DW impacts on current ETL logics and finance reports, including Ar-aging/VAT/ETRS reports for SOX auditing. DW POC to communicate with finance & accounting/site PD team. Provide DW change solutions and coordinate developers for implementation. 
 
