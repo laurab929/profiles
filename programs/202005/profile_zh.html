@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>profile_zh.md</title>
+<meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+
+<style>
+/* https://github.com/microsoft/vscode/blob/master/extensions/markdown-language-features/media/markdown.css */
+/*---------------------------------------------------------------------------------------------
+ *  Copyright (c) Microsoft Corporation. All rights reserved.
+ *  Licensed under the MIT License. See License.txt in the project root for license information.
+ *--------------------------------------------------------------------------------------------*/
+
+body {
+	font-family: var(--vscode-markdown-font-family, -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif);
+	font-size: var(--vscode-markdown-font-size, 14px);
+	padding: 0 26px;
+	line-height: var(--vscode-markdown-line-height, 22px);
+	word-wrap: break-word;
+}
+
+#code-csp-warning {
+	position: fixed;
+	top: 0;
+	right: 0;
+	color: white;
+	margin: 16px;
+	text-align: center;
+	font-size: 12px;
+	font-family: sans-serif;
+	background-color:#444444;
+	cursor: pointer;
+	padding: 6px;
+	box-shadow: 1px 1px 1px rgba(0,0,0,.25);
+}
+
+#code-csp-warning:hover {
+	text-decoration: none;
+	background-color:#007acc;
+	box-shadow: 2px 2px 2px rgba(0,0,0,.25);
+}
+
+body.scrollBeyondLastLine {
+	margin-bottom: calc(100vh - 22px);
+}
+
+body.showEditorSelection .code-line {
+	position: relative;
+}
+
+body.showEditorSelection .code-active-line:before,
+body.showEditorSelection .code-line:hover:before {
+	content: "";
+	display: block;
+	position: absolute;
+	top: 0;
+	left: -12px;
+	height: 100%;
+}
+
+body.showEditorSelection li.code-active-line:before,
+body.showEditorSelection li.code-line:hover:before {
+	left: -30px;
+}
+
+.vscode-light.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.15);
+}
+
+.vscode-light.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.40);
+}
+
+.vscode-light.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+.vscode-dark.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.4);
+}
+
+.vscode-dark.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.60);
+}
+
+.vscode-dark.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+.vscode-high-contrast.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 160, 0, 0.7);
+}
+
+.vscode-high-contrast.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 160, 0, 1);
+}
+
+.vscode-high-contrast.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+img {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a:focus,
+input:focus,
+select:focus,
+textarea:focus {
+	outline: 1px solid -webkit-focus-ring-color;
+	outline-offset: -1px;
+}
+
+hr {
+	border: 0;
+	height: 2px;
+	border-bottom: 2px solid;
+}
+
+h1 {
+	padding-bottom: 0.3em;
+	line-height: 1.2;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+}
+
+h1, h2, h3 {
+	font-weight: normal;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+table > thead > tr > th {
+	text-align: left;
+	border-bottom: 1px solid;
+}
+
+table > thead > tr > th,
+table > thead > tr > td,
+table > tbody > tr > th,
+table > tbody > tr > td {
+	padding: 5px 10px;
+}
+
+table > tbody > tr + tr > td {
+	border-top: 1px solid;
+}
+
+blockquote {
+	margin: 0 7px 0 5px;
+	padding: 0 16px 0 10px;
+	border-left-width: 5px;
+	border-left-style: solid;
+}
+
+code {
+	font-family: Menlo, Monaco, Consolas, "Droid Sans Mono", "Courier New", monospace, "Droid Sans Fallback";
+	font-size: 1em;
+	line-height: 1.357em;
+}
+
+body.wordWrap pre {
+	white-space: pre-wrap;
+}
+
+pre:not(.hljs),
+pre.hljs code > div {
+	padding: 16px;
+	border-radius: 3px;
+	overflow: auto;
+}
+
+pre code {
+	color: var(--vscode-editor-foreground);
+	tab-size: 4;
+}
+
+/** Theming */
+
+.vscode-light pre {
+	background-color: rgba(220, 220, 220, 0.4);
+}
+
+.vscode-dark pre {
+	background-color: rgba(10, 10, 10, 0.4);
+}
+
+.vscode-high-contrast pre {
+	background-color: rgb(0, 0, 0);
+}
+
+.vscode-high-contrast h1 {
+	border-color: rgb(0, 0, 0);
+}
+
+.vscode-light table > thead > tr > th {
+	border-color: rgba(0, 0, 0, 0.69);
+}
+
+.vscode-dark table > thead > tr > th {
+	border-color: rgba(255, 255, 255, 0.69);
+}
+
+.vscode-light h1,
+.vscode-light hr,
+.vscode-light table > tbody > tr + tr > td {
+	border-color: rgba(0, 0, 0, 0.18);
+}
+
+.vscode-dark h1,
+.vscode-dark hr,
+.vscode-dark table > tbody > tr + tr > td {
+	border-color: rgba(255, 255, 255, 0.18);
+}
+
+</style>
+
+<style>
+/* Tomorrow Theme */
+/* http://jmblog.github.com/color-themes-for-google-code-highlightjs */
+/* Original theme - https://github.com/chriskempson/tomorrow-theme */
+
+/* Tomorrow Comment */
+.hljs-comment,
+.hljs-quote {
+	color: #8e908c;
+}
+
+/* Tomorrow Red */
+.hljs-variable,
+.hljs-template-variable,
+.hljs-tag,
+.hljs-name,
+.hljs-selector-id,
+.hljs-selector-class,
+.hljs-regexp,
+.hljs-deletion {
+	color: #c82829;
+}
+
+/* Tomorrow Orange */
+.hljs-number,
+.hljs-built_in,
+.hljs-builtin-name,
+.hljs-literal,
+.hljs-type,
+.hljs-params,
+.hljs-meta,
+.hljs-link {
+	color: #f5871f;
+}
+
+/* Tomorrow Yellow */
+.hljs-attribute {
+	color: #eab700;
+}
+
+/* Tomorrow Green */
+.hljs-string,
+.hljs-symbol,
+.hljs-bullet,
+.hljs-addition {
+	color: #718c00;
+}
+
+/* Tomorrow Blue */
+.hljs-title,
+.hljs-section {
+	color: #4271ae;
+}
+
+/* Tomorrow Purple */
+.hljs-keyword,
+.hljs-selector-tag {
+	color: #8959a8;
+}
+
+.hljs {
+	display: block;
+	overflow-x: auto;
+	color: #4d4d4c;
+	padding: 0.5em;
+}
+
+.hljs-emphasis {
+	font-style: italic;
+}
+
+.hljs-strong {
+	font-weight: bold;
+}
+</style>
+
+<style>
+/*
+ * Markdown PDF CSS
+ */
+
+ body {
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif, "Meiryo";
+	padding: 0 12px;
+}
+
+pre {
+	background-color: #f8f8f8;
+	border: 1px solid #cccccc;
+	border-radius: 3px;
+	overflow-x: auto;
+	white-space: pre-wrap;
+	overflow-wrap: break-word;
+}
+
+pre:not(.hljs) {
+	padding: 23px;
+	line-height: 19px;
+}
+
+blockquote {
+	background: rgba(127, 127, 127, 0.1);
+	border-color: rgba(0, 122, 204, 0.5);
+}
+
+.emoji {
+	height: 1.4em;
+}
+
+code {
+	font-size: 14px;
+	line-height: 19px;
+}
+
+/* for inline code */
+:not(pre):not(.hljs) > code {
+	color: #C9AE75; /* Change the old color so it seems less like an error */
+	font-size: inherit;
+}
+
+/* Page Break : use <div class="page"/> to insert page break
+-------------------------------------------------------- */
+.page {
+	page-break-after: always;
+}
+
+</style>
+
+<script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
+</head>
+<body>
+  <script>
+    mermaid.initialize({
+      startOnLoad: true,
+      theme: document.body.classList.contains('vscode-dark') || document.body.classList.contains('vscode-high-contrast')
+          ? 'dark'
+          : 'default'
+    });
+  </script>
+<h2 align="center"><strong>计磊</strong></h2>
+<p align="center"><strong>手机/微信</strong> +86 131 6706 7620 | <strong>邮箱</strong> jilei191@163.com | <strong>年龄</strong> 29 | <strong>住址</strong> 上海浦东</p>
+<hr />
+<br />
+<!--
+    <table>
+    <tr>
+    <td style="width: 80%">
+    <h3><strong>Ji Lei</strong><h3>
+    <p style="font-size:14px;">
+    +86 131 6706 7620 <br />
+    jilei191@163.com
+    </p>
+    </td>
+    <td>
+    <img src="./photo.png" alt="people_resize" title="my photo"/>
+    </td>
+    </tr>
+    </table>
+-->
+<blockquote>
+<p><strong>专业技能</strong></p>
+</blockquote>
+<ul>
+<li><strong>编程语言</strong>: T-SQL/Spark-Sql/Hive-Sql, Python, Shell, C, html, javascript</li>
+<li><strong>开发工具</strong>: VS Studio, SSMS, SSIS, PowerBI, Git</li>
+<li><strong>数据库软件</strong>: SQL Server, Oracle, Teradata, Hadoop</li>
+<li><strong>编辑软件</strong>: VS Code, Sublime Text, Excel/Word/PPT</li>
+</ul>
+<blockquote>
+<p><strong>商务分析&amp;ETL开发经历</strong></p>
+</blockquote>
+<!-- - **金光集团APP(中国) | 资深数据分析师 | 上海 | 2020.08至今**
+  - 职责概述
+    - 与内审员沟通并理解业务需求场景，形成技术需求文档；
+    - 根据需求场景建立数据模型，助力审计向数据驱动转型；
+    - 管理建成后的审计数据分析系统，确保其稳定性和高效性；
+    - 形成业务场景的端到端分析，包括但不限于理解端到端业务流程、用SAP BW/SQL Server等系统进行数据ETL，结合Power BI的分析能力使内审员可以进行风险场景的多维度分析、钻取；
+    - 与审计团队、IT、财务、业务流程SAP专家及其他相关负责人进行沟通协调，规划审计数据分析系统发展，以实现2-3年内覆盖审计全场景目标。 -->
+<ul>
+<li>
+<p><strong>亿贝软件工程(上海)有限公司 | 业务系统分析师 | 上海 | 2018.05~2020.08</strong></p>
+<ul>
+<li>
+<p>职责概述</p>
+<ul>
+<li>收集、分析来自不同部门的业务变化需求，并结合eBay数仓现状提供相应的流程解决方案；</li>
+<li>作为DSS部门主要对接人，支持全球支付、财务等部门发起的业务变化项目，并对相应的数仓模型进行规划，提供实施方案；</li>
+<li>对团队资源和任务进行协调以支持数仓从Teradata向Hadoop+Spark迁移；</li>
+<li>根据eBay现有资源与为团队中不同项目提供具体的ETL解决方案；</li>
+<li>在满足SLA/SLE数据可用性要求下，确保数据质量并对即时数据需求进行支持。</li>
+</ul>
+</li>
+<li>
+<p>项目经验</p>
+<ul>
+<li>
+<p>Fee-netting项目 | DSS项目对接人 | 2020.03~2020.08</p>
+<ul>
+<li><strong>业务需求</strong>: 随着eBay托管支付(managed payments)的实施完成，现有数仓的卖家收费流程存在计费周期长、计算逻辑复杂并与托管支付业务不相符等问题。数仓数据逻辑需要重新设计，以为支持托管支付模式下可以准确计费。</li>
+<li><strong>项目目标</strong>: 调整计费流程，从交易后计费转为交易中计费。从买家支付到卖家支出的过程中动态从卖家账户中进行费用扣除。</li>
+<li><strong>主要职责</strong>: 界定业务变更对数仓ETL逻辑和财务报表的影响，同时包含对应收账龄报表/增值税报表/高价值用户报表的SOX审计的影响；作为数仓分析对接人与财会部门和产品设计部门进行沟通；提供数仓相应解决方案并协调数据工程师进行方案实施。</li>
+</ul>
+</li>
+<li>
+<p>货币服务业务审查项目 | 数据开发 | 2019.03~2019.06</p>
+<ul>
+<li><strong>业务需求</strong>: 互联网销售税在美国全面开始征收后，eBay需要提供相关在线交易额数据，作为互联网销售税的基线。</li>
+<li><strong>项目目标</strong>: 准确识别每笔交易的货币流向，包括他国-&gt;美国各州、美国各州之间、美国同一州内的交易。提供从交易时间、支付方式、交易类型等多维度的汇总数据，并将数据加密传输给财务及法务团队。</li>
+<li><strong>主要职责</strong>: 与财务、法务团队进行对接，了解具体需求；与产品设计团队对接捋清具体数据逻辑；构建数仓ETL逻辑并使用shell/SQL实施自动化处理流，最终提供数据文件。</li>
+</ul>
+</li>
+<li>
+<p>数仓基础设施迁移项目 | DSS项目对接人 | 2019.03~2020.08</p>
+<ul>
+<li><strong>业务需求</strong>: 由于现有Teradata数仓存在高运营成本、低柔性等问题，需将数仓迁移到Hadoop+Spark-SQL大数据平台。</li>
+<li><strong>项目目标</strong>: 迁移Teradata平台1000+张表近100Pb的容量到Hadoop+Spark-SQL大数据平台。</li>
+<li><strong>主要职责</strong>: 根据业务及数据内容，界定DSS部门数据迁移任务的范围，并与数据主要用户沟通任务优先级及影响范围。对具有SOX审计影响的任务给出合理性证明及输出相关文档。将任务分配到具体数据工程师，制定时间表并定期向DSS部门负责人汇总报告项目进度。</li>
+</ul>
+</li>
+<li>
+<p>支付2.0项目数仓模型开发 | 数据开发 | 2018.05~2019.02</p>
+<ul>
+<li><strong>业务需求</strong>: eBay支付数据严重依赖Paypal数据传输，因此eBay内部从2018年开始自行开发支付系统，即支付2.0。对于支付2.0相关的数据分析需要数仓根据不同模块进行数据建模并支持相应分析。</li>
+<li><strong>项目目标</strong>: 根据支付2.0不同业务模块，在数仓系统中落实相关表及数据模型。根据业务流程，创建业务端到端物品-交易-订单粒度事实表。</li>
+<li><strong>主要职责</strong>: 同支付部门不同的产品设计团队沟通，了解不同支付模块数据逻辑；评估数仓容量及资源，构建数仓数据模型，开发ETL流程链；相应数据用户对支付业务的即时分析需求。</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<!--
+POC: 1. proof of concept 2. point of contact
+SOX: Sarbanes-Oxley Act. 萨班斯-奥克斯里法案，2002年上市公司会计改革
+Compliance: 合规，遵从性，顺从性
+BSA: bank secrecy act
+PD: Product Designer
+SLE: service level expectations
+SLA: service level agreement
+-->
+<ul>
+<li>
+<p><strong>上海慧与有限公司(HPE) | BI工程师 | 上海 | 2016.04~2018.05</strong></p>
+<ul>
+<li>
+<p>职责概述</p>
+<ul>
+<li>以业务为导向进行数据库开发与优化，并参与报表可视化</li>
+<li>商业报表后台日常数据和临时报表数据需求的ETL自动化</li>
+<li>基于现有ETL数据平台的web报表平台二次开发，以发现现有平台的瓶颈并给出优化方案</li>
+<li>维护HP服务器备件供应链的MasterData，负责库存业务数据的自动化开发</li>
+<li>与国外同事进行报表需求沟通并实施</li>
+</ul>
+</li>
+<li>
+<p>项目经验</p>
+<ul>
+<li>
+<p>库存报表工作流优化 | 项目负责人 | 2018.01~2018.05</p>
+<ul>
+<li><strong>业务需求</strong>: 对数仓库存数据混乱、高冗余、手工及半手工的数据处理流程进行数据模型和ETL流程链优化。</li>
+<li><strong>项目目标</strong>: 提供结构化、模块化的库存数据存储方案，构建标准化的报表开发流程。</li>
+<li><strong>主要职责</strong>: 项目发起人，负责项目前期计划制定和项目进度控制，参与ETL的重新设计、冗余数据表去重及报表数据依赖关系的重新梳理等。</li>
+</ul>
+</li>
+<li>
+<p>ETL平台“健康状况分析”web应用 | 开发工程师 | 2017.05~2017.12</p>
+<ul>
+<li><strong>业务需求</strong>: 手动对内部ETL web平台出现的问题和失败任务进行监控耗时巨大，无法分析平台整体的性能状况。</li>
+<li><strong>项目目标</strong>: 能从整体上给出ETL平台的运行状况，分析问题原因并给出解决的方向。</li>
+<li><strong>主要职责</strong>: 项目发起人，该项目主要是针对部门内部ETL平台的二次开发，目的在于发现该平台的瓶颈环节并通过分析对ETL任务改进提供方向；项目主要的开发人员，包括数据准备、指标设定、后端数据库设计、web框架选型、前端开发等。</li>
+</ul>
+</li>
+<li>
+<p>ABC业务模型的搭建 | 开发工程师 | 2016.08~2017.04</p>
+<ul>
+<li><strong>业务需求</strong>: 财务成本基本没有具体的业务活动数据可以参照，无法定位最耗成本的业务活动。</li>
+<li><strong>项目目标</strong>: 通过对供应链上下游数据的整合，分析各阶段活动耗费的成本，并找到成本最高的环节。</li>
+<li><strong>主要职责</strong>: 与国外业务部门同事商定模型需求和逻辑，构建数据库和ETL流程，运行和维护该模型并给出成本报表。</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<!--
+Regular maintenance and reporting automation development
+Supply chain master data maintenance, inventory domain data/reporting automation development and ad hoc change request, conference call with American team to re-build a light-weight star data warehouse etc.
+-->
+<blockquote>
+<p><strong>教育背景</strong></p>
+</blockquote>
+<ul>
+<li>2013.09～2016.03 上海 <strong>|</strong> 上海理工大学 <strong>|</strong> 管理学硕士 <strong>|</strong> 管理科学与工程</li>
+<li>2008.06~2012.09 西安 <strong>|</strong> 陕西科技大学 <strong>|</strong> 工学硕士 <strong>|</strong> 物流工程</li>
+</ul>
+<blockquote>
+<p><a href="https://github.com/Petersonjoe/profiles"><strong>获奖及证书</strong></a></p>
+</blockquote>
+<ul>
+<li>上海市优秀毕业生/上海理工大学优秀毕业生</li>
+<li>硕士研究生国家奖学金 (授奖范围: 前1%)</li>
+<li>庞源创新奖学金 (授奖范围: 前3%)</li>
+<li>优秀学业奖学金(一等) (授奖范围: 前5%)</li>
+<li>第十一届“华为杯”全国研究生数学建模竞赛(二等)</li>
+<li>数据库管理高级证书(三级)</li>
+</ul>
+<blockquote>
+<p><strong>自我总结</strong></p>
+</blockquote>
+<ul>
+<li>在数据库应用、ETL开发及相关处理流工具使用方面有丰富经验和扎实基础；</li>
+<li>擅长数据建模与分析，并提供具有商业价值的业务洞见；</li>
+<li>团队意识强，善于与团队成员沟通提供高质量、一致性、及时性的解决方案；</li>
+<li>良好的英文听说读写及沟通能力。</li>
+</ul>
+
+</body>
+</html>

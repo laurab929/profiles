@@ -1,8 +1,9 @@
 
-<h3 align="center"><strong>Ji Lei (计磊)</strong></h3>
+<h3 align="center"><strong>Lei JI (计磊)</strong></h3>
 
-<p align="center"><strong>Tel/Wechat</strong> +86 131 6706 7620 | <strong>E-mail</strong> jilei191@163.com</p>
+<p align="center">No. 508, Kanghong Rd, Pudong New District, Shanghai City, China 201315<br />(+86) 131 6706 7620<br />jilei191@163.com</p>
 
+<hr />
 <br />
 <!--
     <table>
@@ -21,7 +22,6 @@
     </table>
 -->
 
-
 > **SKILL SET**
 
 - **Coding Language**: T-SQL/Spark-Sql/Hive-Sql, Python, Shell, C, html, javascript 
@@ -29,15 +29,18 @@
 - **Database Platform**: SQL Server, Oracle, Teradata, Hadoop
 - **Editing Software**: VS Code, Sublime Text, Office Kit
 
-> **EDUCATION**
-
-- 2013.09 ~ 2016.03 Shanghai **|** University of Shanghai for Science and Technology **|** Master of Science in Management **|** Management Science and Engineering
-
-- 2008.06 ~ 2012.09 Xi`an **|** Shaanxi University of Science and Technology **|** Bachelor of Engineering **|** Logistics Engineering 
-
 > **PROFESSIONAL EXPERIENCE**
+<!-- 
+- **Aisa Pulp & Paper Co., Ltd. | Senior Data Analyst | Shanghai | 2020.08 ~ Present**
+  - Responsibilities
+    - Coummunicate with internal auditors to understand and clarify data analytic scenarios and translate them into technical requirements.
+    - Develop and deploy data models based on data analytic scenarios to support data-driven auditing.
+    - Own and administrate audit data analytic system to ensure its stability and efficiency.
+    - Conduct E2E business analysis from understanding business process, etling data with SAP BW / SQL Server as EDW, and Power BI as front-end to identify valuable audit risks.
+    - Proactively evaluate opportunities to deploy data analytics capabilities to expand internal audit coverage.
+    - Collaborate and communicate clearly with internal audit team, IT, finance SMEs, various process SME’s, and other stakeholders. -->
 
-- **eBay | Business System Analyst | 2018.05 ~ Present**
+- **eBay | Business System Analyst | Shanghai | 2018.05 ~ 2020.08**
 
   - Responsibilities
     - Analyze business data requirement implementations for EDW changes.
@@ -76,10 +79,9 @@ BSA: bank secrecy act
 PD: Product Designer
 -->
 
-- **HPE | Business Intelligence Engineer | 2016.04 ~ 2018.05**
+- **HPE | Business Intelligence Engineer | Shanghai | 2016.04 ~ 2018.05**
    
   - Responsibilities
-   
     - Business oriented database development/optimization and reporting visualization.
     - ETL automation development to generate valuable data for business decisions and ad hoc data requests. 
     - Communication with global team to finalize business requirements and implementations.
@@ -107,6 +109,12 @@ Regular maintenance and reporting automation development
 Supply chain master data maintenance, inventory domain data/reporting automation development and ad hoc change request, conference call with American team to re-build a light-weight star data warehouse etc.
 -->
 
+> **EDUCATION**
+
+- 2013.09 ~ 2016.03 Shanghai **|** University of Shanghai for Science and Technology **|** Master of Science in Management **|** Management Science and Engineering
+
+- 2008.06 ~ 2012.09 Xi`an **|** Shaanxi University of Science and Technology **|** Bachelor of Engineering **|** Logistics Engineering 
+
 > [**AWARDS & CERTIFICATES**](https://github.com/Petersonjoe/profiles)
 
 - Award with “Shanghai Excellent Graduates”
@@ -119,6 +127,6 @@ Supply chain master data maintenance, inventory domain data/reporting automation
 > **SUMMARY**
 
 - Solid foundations in database management, ETL development and the use of relative tools
-- A good team player and project controller, ability to meet important timelines
 - Experienced in building data model to deliver commercial values
+- A good team player and project controller, ability to meet important timelines
 - Proficient at written/verbal English and communications
